@@ -30,7 +30,7 @@ PyPDF2 torch accelerate bitsandbytes sentence_transformers \
 huggingface_hub openai
 ```
 
-###Installation
+### Installation
 1. Clone the Repository
 Run the following commands:
 
