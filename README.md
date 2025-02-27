@@ -70,3 +70,21 @@ To launch the chatbot:
 python run_chatbot.py
 ```
 
+### Usage
+The chatbot provides context-aware answers using RAG and GPT-4/Llama-3:
+
+1. Start the chatbot by running run_chatbot.py.
+2. Ask a question, and the system will retrieve relevant data from the Faiss vector database.
+3. The LLM (GPT-4 or fine-tuned Llama-3) will generate an accurate, context-driven response.
+4. If applicable, citations will be included in the response.
+5. The model improves over time using RLHF, adapting based on user interactions.
+
+### Key Features
+Retrieval-Augmented Generation (RAG): Improves response relevance by dynamically retrieving relevant documents.
+Fine-Tuned Llama-3 & GPT-4: Ensures high-quality, human-like responses.
+Faiss Vector Database: Enables efficient similarity search for document retrieval.
+RLHF Optimization: Learns from user feedback to refine responses continuously.
+
+### Contributing
+We welcome contributions. Feel free to submit a pull request or report issues.
+
